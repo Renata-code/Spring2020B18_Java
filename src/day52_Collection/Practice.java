@@ -1,9 +1,8 @@
 package day52_Collection;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedHashSet;
-import java.util.TreeSet;
+import com.sun.source.util.Trees;
+
+import java.util.*;
 
 public class Practice {
     /*
@@ -75,17 +74,27 @@ public class Practice {
 
          */
 
-        String str1 = "ababababC"; // abC
-        String str2 = "baba";  // ab
+        String str1 = "nurse"; // abC
+        String str2 = "serun";  // ab
 
         str1 = new TreeSet<>( Arrays.asList(str1.split("")) ).toString();
         str2 = new TreeSet<>( Arrays.asList(str2.split("")) ).toString();
 
         System.out.println(str1.equals(str2));
 
+        String word1 = "abba";
+        String word2 = "baba";
 
+        word1 = new TreeSet(Arrays.asList(word1.split(""))).toString();
 
+        word2 = new TreeSet(Arrays.asList(word2.split(""))).toString();
+
+        System.out.println(word1.equalsIgnoreCase(word2));
+
+        
     }
+
+
 
 
 

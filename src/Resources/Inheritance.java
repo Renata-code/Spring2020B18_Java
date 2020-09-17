@@ -23,7 +23,15 @@ public class Inheritance extends Data {
       //  System.out.println( Inheritance.privateData );
 
 
+
+
+
+
+
     }
+
+
+
 
 
 }
