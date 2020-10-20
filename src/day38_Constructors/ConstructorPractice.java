@@ -24,7 +24,6 @@ public class ConstructorPractice {
 
     }
 
-
     public static void main(String[] args) {
         new ConstructorPractice(10);
 

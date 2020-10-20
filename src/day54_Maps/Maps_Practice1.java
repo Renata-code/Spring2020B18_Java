@@ -56,18 +56,7 @@ public class Maps_Practice1 {
                     goodStudents.put(eachKey, eachValue );
                 }
         }
-
-
         System.out.println(badStudents);
         System.out.println(goodStudents);
-
-
-
-
-
-
-
-
     }
-
 }

@@ -40,16 +40,41 @@ public class Collections_Utility {
         System.out.println(result);
 
 
-        ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(3,3,3,1, 4,4, 5,5, 6));
+        ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(3, 3, 3, 1, 4, 4, 5, 5, 6));
 
 
         list2 = new ArrayList<>(new HashSet<>(list2));
         System.out.println(list2);
 
-        ArrayList<String > listOnames = new ArrayList<>(Arrays.asList("Rena","Rena","Farrukh","Farrukh","Timajon"));
+        ArrayList<String> listOnames = new ArrayList<>(Arrays.asList("Rena", "Rena", "Farrukh", "Farrukh", "Timajon"));
         listOnames = new ArrayList<>(new HashSet<>(listOnames));
         System.out.println(listOnames);
 
+
+        System.out.println("====++++++++++++++++++++++++++++++++++");
+
+
+
+        ArrayList<Integer> numbers10 = new ArrayList<>(Arrays.asList(6, 5, 2, 8, 6, 4,4, 9));
+        numbers10= new ArrayList<>(new TreeSet<>(numbers10));
+        System.out.println(numbers10);
+
+
+        ArrayList<Integer>listik = new ArrayList(Arrays.asList(4,6,3,8,6,5));
+        listik = new ArrayList<>(new TreeSet<>(listik));
+        System.out.println(listik);
+
+
+
     }
+
+
+
+
+
+
+
+
+
 
 }

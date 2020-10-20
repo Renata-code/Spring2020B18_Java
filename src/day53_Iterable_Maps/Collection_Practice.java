@@ -21,7 +21,8 @@ public class Collection_Practice {
 
         String[] arr = {"E", "B", "A", "D", "D", "C", "A"};  //EBADC
         LinkedHashSet<String> st = new LinkedHashSet<>( Arrays.asList(arr) );
-        System.out.println(st);
+        System.out.println(st);//keeps assertion order and remove dups
+
 
        /*
         for(String each: arr){
@@ -30,7 +31,7 @@ public class Collection_Practice {
         */
 
         ArrayList<String> arraylist = new ArrayList<>(Arrays.asList("E", "B", "A", "D", "D", "C", "A"));
-        LinkedHashSet<String> st2 = new LinkedHashSet<>(arraylist);
+        HashSet<String> st2 = new HashSet<>(arraylist);//doesnt keep assertion and remove dups
 
 
         System.out.println(st2);

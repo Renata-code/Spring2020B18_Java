@@ -40,14 +40,7 @@ public class Uniques {
 
         }
 
-
-
         System.out.println(result);
 
-
-
     }
-
-
-
 }
